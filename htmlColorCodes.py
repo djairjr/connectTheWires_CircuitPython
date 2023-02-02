@@ -1,3 +1,8 @@
+# This is a simple way converter to use the FASTLED named colors with CircuitPython.
+# My old version of this game was made in Arduino IDE, with FASTLED library.
+# In Arduino you access the code using CRGB::Red, for example.
+# With this helper, you can access it in python using CRGB['Red'].
+
 CRGB = {
     'MistyRose': (1.0, 0.894118, 0.882353), 'Red': (1.0, 0.0, 0.0),
     'FairyLight': (1.0, 0.894118, 0.176471),'LemonChiffon': (1.0, 0.980392, 0.803922),
